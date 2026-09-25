@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-A machine learning project where I explored customer churn and built an XGBoost model to predict whether a customer is likely to leave.
+A machine learning project where I built an XGBoost model to predict whether a customer is likely to leave.
 
 ## What I did
 
@@ -17,8 +17,6 @@ A machine learning project where I explored customer churn and built an XGBoost 
 
 ## EDA
 
-I looked at things like:
-
 - Churn distribution
 - Customer tenure
 - Monthly and total charges
@@ -27,16 +25,13 @@ I looked at things like:
 - Payment method
 - Support services
 - Correlations and feature relationships
-
-Some noticeable patterns were that month-to-month customers and customers with shorter tenure tended to churn more.
-
 ## Model
 
 The main model used was **XGBoost**.
 
-I also compared the results of using PCA with the original features to see how dimensionality reduction affected the model.
+I compared the results of using PCA with the original features 
 
-## Tools Used
+## libraries used
 
 - Python
 - Pandas
@@ -46,9 +41,3 @@ I also compared the results of using PCA with the original features to see how d
 - Scikit-learn
 - XGBoost
 - Imbalanced-learn
-
-## Dataset
-
-Telco Customer Churn dataset with 7,043 customer records.
-
-The target variable is `Churn`, which indicates whether a customer left the service.
